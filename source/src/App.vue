@@ -41,7 +41,7 @@
       <div class="treeList-box">
         <pre><code class="language-javascript">{{ targetListRef  }}</code></pre>
       </div>
-      <div class="msg">处理过后的树形数组(先寻找根据寻找结果处理不同逻辑)</div>
+      <div class="msg">遍历父节点(先寻找根据寻找结果处理不同逻辑)</div>
       <div class="btn-box">
         <button @click="each" :disabled="isOver">寻找父节点</button>
         <button @click="run" :disabled="isOver">节点添加</button>
